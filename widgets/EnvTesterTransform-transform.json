@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "spec-version": "1.5"
+  },
+  "configuration-groups": [
+    {
+      "label": "EnvTester Transform Configuration",
+      "properties": [
+        {
+          "name": "envVars",
+          "widget-type": "csv",
+          "label": "Environment Variables",
+          "widget-attributes": {}
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "name": "schema",
+      "label": "schema",
+      "widget-type": "schema"
+    }
+  ]
+}
